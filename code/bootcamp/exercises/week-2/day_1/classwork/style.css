@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container .right-container ul,
+.container .left-container ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.container .right-container ul li,
+.container .left-container ul li {
+  padding: 0 10px; /* Add padding for better spacing */
+}
+.container .right-container ul {
+  display: flex;
+
+  align-items: center;
+}
+.container .right-container img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+.twitbanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: rgb(119, 180, 219);
+  color: white;
+}
+button,
+input {
+  border-radius: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer .footer-right ul,
+.footer .footer-left ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 10px;
+}
+.footer .footer-right li,
+.footer .footer-left ul li {
+  padding: 0 10px;
+}
+
+.footer-left ul {
+  align-items: center;
+}
+.footer {
+  display: flex;
+  position: relative;
+  top: -50px;
+}
+.footer .footer-left ul li img {
+  border-radius: 100px;
+  border: 2px white solid;
+}
+
+.commoncontainer {
+  height: 600px;
+  overflow: hidden;
+}

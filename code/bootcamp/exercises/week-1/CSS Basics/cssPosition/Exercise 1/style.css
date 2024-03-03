@@ -1,0 +1,9 @@
+.elm {
+  display: block;
+  height: 50px;
+  width: 100px;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}

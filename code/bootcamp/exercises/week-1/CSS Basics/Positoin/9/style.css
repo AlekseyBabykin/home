@@ -1,0 +1,43 @@
+#chat {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 15fr;
+  grid-template-areas:
+    "f c"
+    "f i";
+}
+
+#friends {
+  background-color: blueviolet;
+  grid-area: f;
+  display: grid;
+}
+#friends p {
+  background-color: blue;
+}
+
+#chatbox {
+  grid-area: c;
+  display: grid;
+}
+#chatbox .right {
+  text-align: right;
+}
+
+.text-container p {
+  display: inline-block;
+}
+
+#input {
+  grid-area: i;
+  text-align: left;
+}
+
+#input input,
+#input div {
+  display: inline-block;
+}
+.text-container .text {
+  font-family: "Tele2 TextSans Web SHORT Regular", sans-serif;
+}

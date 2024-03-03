@@ -1,0 +1,33 @@
+.container {
+  margin: auto;
+  display: grid;
+  height: 80vh;
+  width: 80vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr 0.2fr;
+  grid-template-areas:
+    "A"
+    "B"
+    "C";
+  border: 2px black solid;
+}
+
+.navbar {
+  grid-area: A;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.navbar div {
+  display: inline-block;
+}
+.content {
+  grid-area: B;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.footer {
+  grid-area: C;
+  text-align: end;
+}

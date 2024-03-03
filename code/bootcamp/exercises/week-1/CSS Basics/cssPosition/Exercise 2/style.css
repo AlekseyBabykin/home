@@ -1,0 +1,16 @@
+body {
+  width: 500px;
+  height: 800px;
+}
+.nav {
+  position: fixed;
+  background-color: grey;
+}
+.navBottom {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.text {
+  padding-top: 80px;
+}
