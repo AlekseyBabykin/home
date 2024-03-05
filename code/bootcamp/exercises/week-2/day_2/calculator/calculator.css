@@ -1,0 +1,85 @@
+* {
+  font-family: inter;
+}
+
+.calc-container {
+  height: 844px;
+  width: 390px;
+  background-color: #151515;
+  border-radius: 40px;
+}
+
+.calc-container ul li {
+  height: 75px;
+  width: 73px;
+  border-radius: 9px;
+  background-color: #343434;
+  list-style-type: none;
+}
+
+.calc-container ul .icon {
+  font-size: 24px;
+  font-family: inter;
+}
+
+.calc-container .bottom-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 450px;
+  padding: 0;
+}
+.calc-container .bottom-container {
+  padding: 10px 19px 0px 19px;
+}
+
+.calc-container .bottom-container ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc-container ul .number {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.calc-container .top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 325px;
+
+  color: white;
+  font-size: 48px;
+  padding-right: 20px;
+}
+.calc-container .top-container .l1 {
+  padding-top: 80px;
+}
+
+.calc-container .top-container .l2 {
+  padding-top: 80px;
+  color: #969696;
+}
+.calc-container .top-container .l2 {
+  padding-top: 80px;
+  color: #969696;
+}
+.calc-container .top-container .l3 {
+  border-bottom: 1px #4e4d4d solid;
+  width: 352px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.cont-lineicon {
+  display: flex;
+  justify-content: space-between;
+  width: 117px;
+}
+.cont-oneicon {
+  display: flex;
+  justify-content: end;
+  width: 235px;
+}

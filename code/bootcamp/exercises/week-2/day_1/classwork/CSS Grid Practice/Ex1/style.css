@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 15px 10px 10px 20px;
+  margin: auto;
+  width: 700px;
+  height: 700px;
+  gap: 1rem;
+  display: grid;
+  grid-template-areas:
+    "a a a a b b b"
+    "a a a a b b b"
+    "c c c c c c c"
+    "v v v d d d d"
+    "v v v f f f f"
+    "v v v f f f f";
+}
+.a {
+  gap: 1rem;
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c c";
+
+  grid-area: a;
+}
+.a .a3 {
+  grid-area: c;
+}
+
+.container,
+.b,
+.c,
+.d,
+.f,
+.f .f1,
+.f .f2,
+.a .a1,
+.a .a2,
+.a .a3 {
+  border: 1px black solid;
+  box-shadow: 2px 2px 2px 0;
+}
+
+.b {
+  border-radius: 200px;
+  border: 1px black solid;
+  grid-area: b;
+}
+
+.c {
+  border: 1px black solid;
+  grid-area: c;
+}
+
+.d {
+  border: 1px black solid;
+  grid-area: d;
+}
+
+.f {
+  padding: 10px;
+  gap: 1rem;
+  border: 1px black solid;
+  grid-area: f;
+  display: grid;
+  grid-template-areas:
+    "a c"
+    "c b";
+}
+
+.f .f1 {
+  grid-area: a;
+}

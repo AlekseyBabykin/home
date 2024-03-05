@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.fullcontainer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "a a"
+    "b c";
+  grid-template-columns: 1fr 8fr;
+}
+
+.fullcontainer .navbar {
+  background-color: black;
+  color: white;
+  height: 30px;
+  display: grid;
+  grid-area: a;
+  grid-template-areas: "a b c";
+}
+
+.fullcontainer .navbar .navbarCodio {
+  grid-area: a;
+  margin-left: 30px;
+}
+
+.fullcontainer .navbar .navbarYou {
+  grid-area: b;
+}
+
+.fullcontainer .navbar .navbarSwitch {
+  grid-area: c;
+}
+
+.fullcontainer .leftcontainer {
+  grid-area: b;
+}
+
+.fullcontainer .rightcontainer {
+  grid-area: c;
+}
+
+.fullcontainer .leftcontainer {
+  background-color: black;
+  color: white;
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e";
+  grid-template-rows: 2fr 1fr 1fr 1fr 8fr;
+}
+
+.fullcontainer .leftcontainer .leftcontainer-icon {
+  text-align: end;
+  grid-area: a;
+}
+.fullcontainer .leftcontainer .leftcontainer-study div,
+.fullcontainer .leftcontainer .leftcontainer-build div,
+.fullcontainer .leftcontainer .leftcontainer-help div,
+.fullcontainer .leftcontainer .leftcontainer-stest div {
+  text-align: center;
+}
+
+.fullcontainer .leftcontainer .leftcontainer-study {
+  grid-area: b;
+}
+
+.fullcontainer .leftcontainer .leftcontainer-build {
+  grid-area: c;
+}
+
+.fullcontainer .leftcontainer .leftcontainer-help {
+  grid-area: d;
+}
+
+.fullcontainer .leftcontainer .leftcontainer-stest {
+  position: absolute;
+  bottom: 0;
+  grid-area: e;
+}
