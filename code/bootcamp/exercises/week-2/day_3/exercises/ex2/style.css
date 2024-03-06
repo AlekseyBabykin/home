@@ -1,0 +1,40 @@
+img {
+  width: 250px;
+  height: 300px;
+}
+.comtainer div {
+  display: none;
+}
+.comtainer {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 909px) {
+  .img3 {
+    display: none;
+  }
+  .comtainer {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .img2 {
+    display: none;
+  }
+  .comtainer {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .img1 {
+    display: none;
+  }
+  .comtainer div {
+    display: block;
+  }
+  .comtainer {
+    width: 150px;
+  }
+}

@@ -1,0 +1,28 @@
+img {
+  width: 250px;
+  height: 300px;
+}
+
+.comtainer {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-height: 909px) {
+  .img3 {
+    display: none;
+  }
+  .comtainer {
+    width: 600px;
+  }
+}
+@media screen and (max-height: 610px) {
+  .img2 {
+    display: none;
+  }
+  .comtainer {
+    width: 300px;
+  }
+}
