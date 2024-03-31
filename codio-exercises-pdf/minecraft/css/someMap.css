@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin-bottom: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.map-tile.hov {
+  cursor: pointer;
+}
+.map-tile.hov:hover {
+  border: 1px solid black;
+}
+.map-container {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.map-tile {
+  width: 3rem;
+  height: 3rem;
+  /* border: 1px solid #000; */
+}
+
+.grass {
+  background-image: url("../image/grass.png");
+  background-size: cover;
+}
+
+.water {
+  background-color: #2196f3;
+}
+
+.tree {
+  background-image: url("../image/tree.png");
+  background-size: cover;
+}
+
+.stone {
+  background-image: url("../image/stone.png");
+  background-size: cover;
+}
+
+.sky {
+  background-image: url("../image/sky.png");
+  background-size: cover;
+}
+
+.map-tile.selected {
+  border: 1px solid rgb(74, 223, 16);
+}
