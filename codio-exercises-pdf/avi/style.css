@@ -22,3 +22,9 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+#color-squar {
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+}

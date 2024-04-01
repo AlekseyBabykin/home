@@ -15,3 +15,10 @@ myButton.addEventListener("click", (e) => {
     window.alert("is not correct");
   }
 });
+
+const colorSquar = document.getElementById("color-squar");
+
+colorSquar.addEventListener("input", (e) => {
+  e.preventDefault();
+  document.body.style.backgroundColor = colorSquar.value;
+});
